@@ -6,9 +6,9 @@ $visit_timeframe = 3; // The length (in minutes) we classify as a visit.
 include 'config/env.php';
 
 if ($_SERVER['REQUEST_METHOD'] == "GET") {
-	if ($_GET['expose'] == "tiddlydumb") {
+	if ($_GET['expose'] == $query_string) {
 		// Responding to the request key.
-		echo "c8bb2a41f8720202ec08d9039d6b46d2fd0b5c85\n";
+		echo "$secret\n";
 	}
 }
 
