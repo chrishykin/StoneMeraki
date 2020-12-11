@@ -5,4 +5,7 @@ $mysql_user = "";
 $mysql_password = "";
 $mysql_db = "meraki";
 
+$query_string = "";
+$secret = ""; 
+
 ?>
